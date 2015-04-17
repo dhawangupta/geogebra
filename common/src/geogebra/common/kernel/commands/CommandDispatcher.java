@@ -614,6 +614,8 @@ public abstract class CommandDispatcher {
 			case LaTeX:
 				return getBasicDispatcher().dispatch(command, kernel);
 
+			case Normalize:
+				return new CmdNormalize(kernel);
 			case CFactor:
 			case CIFactor:
 			case CSolutions:
