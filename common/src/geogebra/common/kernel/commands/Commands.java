@@ -55,8 +55,8 @@ public enum Commands implements CommandsConstants, GetCommand {
 			TABLE_GEOMETRY), AreParallel(TABLE_GEOMETRY), AreConcyclic(
 			TABLE_GEOMETRY), ArePerpendicular(TABLE_GEOMETRY), AreEqual(
 			TABLE_GEOMETRY), AreConcurrent(TABLE_GEOMETRY), LocusEquation(
-			TABLE_GEOMETRY), Envelope(TABLE_GEOMETRY), Volume(TABLE_3D),
-
+			TABLE_GEOMETRY), Envelope(TABLE_GEOMETRY), Volume(TABLE_3D), Normalize(
++			TABLE_GEOMETRY),
 	// =============================================================
 	// text
 	// =============================================================
